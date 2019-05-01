@@ -1,3 +1,4 @@
+@import url('http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css');
 
  .header
 
@@ -19,8 +20,6 @@
    position: relative;
    width: 900px;
    background: #b366ff;
-   padding: 5px 0;
-   width: 50%;
    margin: 0 auto;
  }
  
@@ -36,5 +35,11 @@
    display: inline-block;
    background: #b366ff;
    margin: 0 10px;
-   border: 0 2px;
+   line-height: 33px;
+   font-family: 'Economica',bold;
+ }
+
+ li:hover {
+   background: #f2f2f2; /* Цвет фона под ссылкой */
+   color: #bfbfbf; /* Цвет ссылки */
  }

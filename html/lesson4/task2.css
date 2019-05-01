@@ -1,0 +1,50 @@
+@import url('http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css');
+
+ .header
+
+ {
+   height: 100px;
+   background: #f2f2f2;
+ }
+ 
+ .topmenu_bar
+
+ {
+   height: 33px;
+   background: #b366ff;
+ }
+ 
+ .topmenu
+ 
+ {
+   position: relative;
+   width: 900px;
+   background: #b366ff;
+   margin: 0 auto;
+ }
+
+ .item {
+   float: left;
+   line-height: 33px;
+   margin: 0 5px;
+   color: #fff;
+   font-family: 'Economica',bold;
+}
+
+ .item-sp {
+   float: right;
+   line-height: 33px;
+   margin: 0 5 px;
+   color: #fff;
+   font-family: 'Economica',bold;
+   } 
+
+ .item:hover {
+    background: #f2f2f2; /* Цвет фона под ссылкой */ 
+    color: #bfbfbf; /* Цвет ссылки */ 
+   }
+
+ .item-sp:hover {
+    background: #f2f2f2;
+    color: #bfbfbf; 
+   }
