@@ -1,0 +1,57 @@
+@import url('http://fonts.googleapis.com/css?family=Economica:400,700' rel='stylesheet' type='text/css');
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul.navmenu li {
+  background: #1FA2FE;
+  -border-right: 0px solid #FFFFFF;
+  float: left; /*делаем меню горизонтальным*/
+  height: 28px;
+  list-style: none;
+}
+
+ul.navmenu li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 5px 5px 13px;
+  color: #E2F2F5;
+}
+
+ul.navmenu li ul {
+  display: none;	/*скрываем вложенные пункты*/
+}
+
+ul.navmenu li a:hover {
+  background: #EEEEED;
+  color: #A6A6A6;
+}
+
+ul.submenu li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 5px 5px 13px;
+  color: #A6A6A6;
+  background: #ECEEEC;
+}
+
+/*Выпадающее меню*/
+
+ul.navmenu {
+  position: relative;
+  background: #EEEEED;
+  height: 30px;
+  width: 900px;
+}
+
+ul.navmenu li:hover > ul {
+  -background: #EEEEED;
+  -border-top: 1px solid white;
+  display: block;
+  width: 900px;
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
